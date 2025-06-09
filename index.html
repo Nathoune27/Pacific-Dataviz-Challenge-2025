@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pacific Dataviz Challenge 2025</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 </head>
 <body>
   <header>
@@ -18,9 +19,11 @@
       <p>Si vous voyez cette page en ligne sur GitHub Pages, votre déploiement fonctionne !</p>
     </section>
 
-    <section>
-      <h2>Prochaine étape</h2>
-      <p>Nous allons bientôt ajouter une carte interactive, du scrollytelling, et des données sur la biodiversité marine.</p>
+    <section id="map" style="height: 400px;"></section>
+
+    <section id="species-info">
+      <h2>Informations sur l'espèce</h2>
+      <pre id="info"></pre>
     </section>
   </main>
 
@@ -28,6 +31,7 @@
     <p>&copy; 2025 - Projet Pacific Dataviz Challenge</p>
   </footer>
 
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,4 @@
+species,lat,lon,date,type
+Megaptera novaeangliae,-22.27,166.45,2022-07-01,observation
+Megaptera novaeangliae,-18.14,178.45,2022-08-15,migration
+Megaptera novaeangliae,-16.49,-151.74,2022-09-03,observation

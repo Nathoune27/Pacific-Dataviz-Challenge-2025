@@ -1,0 +1,15 @@
+{
+  "name": "Baleine à bosse",
+  "scientific_name": "Megaptera novaeangliae",
+  "diet": "Krill, petits poissons",
+  "average_size_m": 13.5,
+  "average_weight_t": 30,
+  "gestation_months": 11,
+  "threats": [
+    "Pollution sonore",
+    "Changement climatique",
+    "Collisions avec les navires",
+    "Enchevêtrement dans les filets"
+  ],
+  "migration": "De l'Antarctique vers les zones tropicales du Pacifique pour se reproduire."
+}
